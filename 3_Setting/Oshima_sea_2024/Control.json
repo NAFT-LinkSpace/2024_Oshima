@@ -1,0 +1,38 @@
+{
+    "Gain" : {
+        "K_p" : {
+            "Value" : 0.6,
+            "Unit" : "...",
+            "Definition" : "PID Gain : Proportional",
+            "Note" : "..."
+        },
+
+        "K_i" : {
+            "Value" : 0,
+            "Unit" : "...",
+            "Definition" : "PID Gain : Integral",
+            "Note" : "..."
+        },
+
+        "K_d" : {
+            "Value" : 0.1,
+            "Unit" : "...",
+            "Definition" : "PID Gain : Differential",
+            "Note" : "..."
+        }
+    },
+
+    "Roll_Target" : {
+        "Value" : 45.0,
+        "Unit" : "deg",
+        "Definition" : "Target Value : Roll",
+        "Note" : "..."
+    },
+
+    "Time_Start_Control" : {
+        "Value" : 7.0,
+        "Unit" : "s",
+        "Definition" : "Delay to Control Start",
+        "Note" : "..."
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "Mass" : {
+        "Before" : {
+            "Value" : 6.097,
+            "Unit" : "kg",
+            "Definition" : "Mass at Filling",
+            "Note" : "..."
+        },
+
+        "After" : {
+            "Value" : 5.325,
+            "Unit" : "kg",
+            "Definition" : "Mass after Burning",
+            "Note" : "..."
+        }
+    },
+
+
+    "Inertia" : {
+        "Before" : {
+            "Value" : [[0.008463, 0.0, 0.0],
+                        [0.0, 1.400, 0.0],
+                        [0.0, 0.0, 1.400]],
+            "Unit" : "kg*m^2",
+            "Definition" : "Inertia Matrix at Filling",
+            "Note" : "x : body-axis"
+        },
+
+        "After" : {
+            "Value" : [[0.008022, 0.0, 0.0],
+                        [0.0, 1.274, 0.0],
+                        [0.0, 0.0, 1.275]],
+            "Unit" : "kg*m^2",
+            "Definition" : "Inertia Matrix after Burning",
+            "Note" : "x : body-axis"
+        }
+    },
+
+
+    "Body_Diameter" : {
+        "Value" : 0.102,
+        "Unit" : "m",
+        "Definition" : "...",
+        "Note" : "..."
+    },
+
+    "Body_Length" : {
+        "Value" : 1.891,
+        "Unit" : "m",
+        "Definition" : "...",
+        "Note" : "Not Including pitot-tube"
+    },
+
+
+    "Cg" : {
+        "Before" : {
+            "Value" : 0.835,
+            "Unit" : "m",
+            "Definition" : "Cg at Filling",
+            "Note" : "From aft-end of body"
+        },
+
+        "After" : {
+            "Value" : 0.884,
+            "Unit" : "m",
+            "Definition" : "Cg after Burning",
+            "Note" : "From aft-end of body"
+        }
+    },
+
+
+    "Alpha_Max" : {
+        "Value" : 10,
+        "Unit" : "deg",
+        "Definition" : "Alpha : Upper-Limit within Estimation",
+        "Note" : "..."
+    },
+
+
+    "Cp" : {
+        "Alpha_0" : {
+            "Value" : 0.56712,
+            "Unit" : "m",
+            "Definition" : "Cp at Alpha : nearly 0",
+            "Note" : "From aft-end of body"
+        },
+
+        "Alpha_Max" : {
+            "Value" : 0.64466,
+            "Unit" : "m",
+            "Definition" : "Cp at Alpha_Max",
+            "Note" : "From aft-end of body"
+        }
+    },
+
+
+    "Gap_Tail_Launcher" : {
+        "Value" : 0.002,
+        "Unit" : "m",
+        "Definition" : "Gap between Body-tail and Launcher",
+        "Note" : "..."
+    },
+
+
+    "Cl_Alpha" : {
+        "Value" : 12.58,
+        "Unit" : "1/rad",
+        "Definition" : "Cl Slope to Alpha",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Cn_Alpha" : {
+        "Value" : 13.09,
+        "Unit" : "1/rad",
+        "Definition" : "Cn Slope to Alpha",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Cn_Alpha_Except_r" : {
+        "Value" : 11.62,
+        "Unit" : "1/rad",
+        "Definition" : "Cn Slope to Alpha, Except movable-fin",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Cn_Alpha_r_Max" : {
+        "Value" : 2.00,
+        "Unit" : "1/rad",
+        "Definition" : "Cn Slope to Alpha of movable-fin, Roll = 0 deg",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+
+    "Cp_Cn_Alpha_Except_r" : {
+        "Value" : 6.49,
+        "Unit" : "1/rad",
+        "Definition" : "Cp * Cn_alpha, Except movable-fin",
+        "Note" : "Representative-area : cross-section of body, Cp : From aft-end of body"
+    },
+
+    "Cp_Cn_Alpha_r_Max" : {
+        "Value" : 1.67,
+        "Unit" : "1/rad",
+        "Definition" : "Cp * Cn_alpha of movable-fin, Roll = 0 deg",
+        "Note" : "Representative-area : cross-section of body, Cp : From aft-end of body"
+    },
+
+    "Cd0" : {
+        "Value" : 0.3560,
+        "Unit" : "...",
+        "Definition" : "Cd at Alpha : nearly 0",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Ct0" : {
+        "Value" : 0.3527,
+        "Unit" : "...",
+        "Definition" : "Ct at Alpha : nearly 0",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Coefficient_Cd_Induced" : {
+        "Value" : 0.059434347,
+        "Unit" : "...",
+        "Definition" : "Coefficient k -> Cd = Cd0 + k(Cl^2)",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Coefficient_Ct_Induced" : {
+        "Value" : 0,
+        "Unit" : "...",
+        "Definition" : "Coefficient k -> Ct = Ct0 + k(Cn^2)",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Delta_Max" : {
+        "Value" : 10,
+        "Unit" : "deg",
+        "Definition" : "Delta : Upper-Limit within Estimation",
+        "Note" : "..."
+    },
+
+    "Cmt_Delta" : {
+        "Value" : 0.175,
+        "Unit" : "...",
+        "Definition" : "Cmt Slope to Delta",
+        "Note" : "Representative-area : cross-section of body, Representative-length : body diameter"
+    },
+
+
+    "V_Parachute" : {
+        "Value" : 16.0,
+        "Unit" : "m/s",
+        "Definition" : "Terminal Velocity : Parachute",
+        "Note" : "..."
+    },
+
+    "Timer_Parachute" : {
+        "Value" : 0.0,
+        "Unit" : "s",
+        "Definition" : "Opening Timing : Parachute",
+        "Note" : "after reaching apex"
+    }
+}

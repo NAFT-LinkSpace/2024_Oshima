@@ -1,0 +1,161 @@
+{
+    "Mass" : {
+        "Before" : {
+            "Value" : 5.686,
+            "Unit" : "kg",
+            "Definition" : "Mass at Filling",
+            "Note" : "..."
+        },
+
+        "After" : {
+            "Value" : 4.914,
+            "Unit" : "kg",
+            "Definition" : "Mass after Burning",
+            "Note" : "..."
+        }
+    },
+
+
+    "Inertia" : {
+        "Before" : {
+            "Value" : [[0.007979, 0.0, 0.0],
+                        [0.0, 1.355, 0.0],
+                        [0.0, 0.0, 1.355]],
+            "Unit" : "kg*m^2",
+            "Definition" : "Inertia Matrix at Filling",
+            "Note" : "x : body-axis"
+        },
+
+        "After" : {
+            "Value" : [[0.007538, 0.0, 0.0],
+                        [0.0, 1.227, 0.0],
+                        [0.0, 0.0, 1.227]],
+            "Unit" : "kg*m^2",
+            "Definition" : "Inertia Matrix after Burning",
+            "Note" : "x : body-axis"
+        }
+    },
+
+
+    "Body_Diameter" : {
+        "Value" : 0.102,
+        "Unit" : "m",
+        "Definition" : "...",
+        "Note" : "..."
+    },
+
+    "Body_Length" : {
+        "Value" : 1.891,
+        "Unit" : "m",
+        "Definition" : "...",
+        "Note" : "Not Including pitot-tube"
+    },
+
+
+    "Cg" : {
+        "Before" : {
+            "Value" : 0.825,
+            "Unit" : "m",
+            "Definition" : "Cg at Filling",
+            "Note" : "From aft-end of body"
+        },
+
+        "After" : {
+            "Value" : 0.876,
+            "Unit" : "m",
+            "Definition" : "Cg after Burning",
+            "Note" : "From aft-end of body"
+        }
+    },
+
+
+    "Alpha_Max" : {
+        "Value" : 15,
+        "Unit" : "deg",
+        "Definition" : "Alpha : Upper-Limit within Estimation",
+        "Note" : "..."
+    },
+
+
+    "Cp" : {
+        "Alpha_0" : {
+            "Value" : 0.63222,
+            "Unit" : "m",
+            "Definition" : "Cp at Alpha : nearly 0",
+            "Note" : "From aft-end of body"
+        },
+
+        "Alpha_Max" : {
+            "Value" : 0.56712,
+            "Unit" : "m",
+            "Definition" : "Cp at Alpha_Max",
+            "Note" : "From aft-end of body"
+        }
+    },
+
+
+    "Gap_Tail_Launcher" : {
+        "Value" : 0.002,
+        "Unit" : "m",
+        "Definition" : "Gap between Body-tail and Launcher",
+        "Note" : "..."
+    },
+
+
+    "Cl_Alpha" : {
+        "Value" : 12.58,
+        "Unit" : "1/rad",
+        "Definition" : "Cl Slope to Alpha",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Cn_Alpha" : {
+        "Value" : 13.09,
+        "Unit" : "1/rad",
+        "Definition" : "Cn Slope to Alpha",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Cd0" : {
+        "Value" : 0.3560,
+        "Unit" : "...",
+        "Definition" : "Cd at Alpha : nearly 0",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Ct0" : {
+        "Value" : 0.3527,
+        "Unit" : "...",
+        "Definition" : "Ct at Alpha : nearly 0",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Coefficient_Cd_Induced" : {
+        "Value" : 0.05943,
+        "Unit" : "...",
+        "Definition" : "Coefficient k -> Cd = Cd0 + k(Cl^2)",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+    "Coefficient_Ct_Induced" : {
+        "Value" : -0.01832,
+        "Unit" : "...",
+        "Definition" : "Coefficient k -> Ct = Ct0 + k(Cn^2)",
+        "Note" : "Representative-area : cross-section of body"
+    },
+
+
+    "V_Parachute" : {
+        "Value" : 16.0,
+        "Unit" : "m/s",
+        "Definition" : "Terminal Velocity : Parachute",
+        "Note" : "..."
+    },
+
+    "Timer_Parachute" : {
+        "Value" : 0.0,
+        "Unit" : "s",
+        "Definition" : "Opening Timing : Parachute",
+        "Note" : "after reaching apex"
+    }
+}
